@@ -16,14 +16,6 @@
   min-height: 100%;
 }
 
-.education {
-  background-image:url("../assets/images/bg3.jpg");
-  min-height: 400px;
-}
-.photo{
-    background-image: url("../assets/images/me2.jpg");
-    height: 500px;
-}
 .skills, .more-work{
   background-color: rgba(173,105,127,0.82);
 }
