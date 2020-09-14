@@ -1,0 +1,383 @@
+
+
+
+
+.jumbotron, .photo , .education{
+ 
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron{
+  background-image: url("../assets/images/bg4.jpg");
+  min-height: 100%;
+}
+
+.education {
+  background-image:url("../assets/images/bg3.jpg");
+  min-height: 400px;
+}
+.photo{
+    background-image: url("../assets/images/me2.jpg");
+    height: 500px;
+}
+.skills, .more-work{
+  background-color: rgba(173,105,127,0.82);
+}
+
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif !important;
+  color: #495057;
+  
+}
+
+body {
+ 
+/*scroll-behavior: smooth; /* Only works in Firefox, this why I used a library*/
+/* When putting this, smooth scroll in safari doesnt work.
+-webkit-scroll-snap-type: y mandatory;
+-ms-scroll-snap-type: y mandatory;
+scroll-snap-type: y mandatory;  /* Only works in Safari*/
+/*overflow-y: scroll;*/
+
+
+}
+
+/*.slide {
+  scroll-snap-align: center; /* Only works in Safari*/
+   
+/*
+
+/*
+ * NavBar
+ */
+
+.navbar{
+  background: rgba(173,105,127,0.82) !important;
+
+ 
+}
+
+
+
+
+
+/*section#section-about ,section#section-resume, section#section-contact{
+  width: 100%;
+  height: 100vh;
+
+}
+
+/*
+ * Cover
+ */
+
+
+.cover-container {
+  max-width: 42em;
+
+}
+
+.cover {
+  padding: 0 1.5rem;
+  font-weight: 700;
+  
+}
+
+.cover h4.cover-heading{
+  font-size: 32px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+
+.lead{
+
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1em;
+}
+
+.size-scroll{
+  margin-top: 20%;
+  padding-top:10px;
+}
+
+.slow-scroll.size-scroll{
+   color:#e1e1e1;
+}
+
+@media screen and (max-width:400px){
+  .cover h4.cover-heading {
+    font-size: 20px !important;
+  }
+    h2.lead{
+    font-size: 30px !important;
+  }
+}
+
+@media  (min-width:410px) and (max-width:590px){
+  .cover h4.cover-heading {
+    font-size: 24px !important;
+  }
+  h2.lead{
+    font-size: 36px !important;
+  }
+}
+
+@media(min-width:600px){
+  .cover h4.cover-heading {
+    font-size: 30px;
+  }
+    h2.lead{
+    font-size: 48px;
+  }
+
+}
+
+.jumbotron{
+  /*background-image:url('../assets/images/bg.jpg');
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;   
+  background-attachment: fixed;  
+  -moz-background-size: cover;  
+  background-size:cover;
+  background-position:center;*/
+  height: 100vh;  
+  width: 100%;
+  margin-bottom: 0px;
+
+
+
+}
+
+
+
+
+/*
+ * About
+ */
+
+
+.about, .resume{
+
+  padding:20px;
+}
+.left-half{
+  text-align: center;
+  }
+
+.profile-img img{
+  width: 350px;
+  height: 350px;
+
+}
+
+.about-title, .skills-title, .resume-title, .portfolio-title,.more-work-title, .contact-title{
+  text-transform: uppercase;
+  letter-spacing: -.035em;
+  margin-top: 20px;
+}
+
+
+p.about-me{
+  font-size: 16px;
+}
+
+
+/* Resume */
+
+
+p.resume-about-me{
+  line-height: 30px;
+}
+
+.resume-title{
+  padding-bottom: 8px;
+}
+
+
+.resume-education{
+  padding: 8px;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+h6.degree{
+  font-weight: bold;
+}
+
+/* Portfolio */
+
+.portfolio .portfolio-item{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  /*max-width: 25rem;*/
+  margin-bottom: 30px;
+  overflow: hidden
+}
+
+.portfolio-item{
+  margin-right: 0px !important;
+}
+
+.portfolio-item img.weather, 
+.portfolio-item img.beagle,
+.portfolio-item img.fashion {
+  opacity: 0.9;
+}
+
+.portfolio-item img{
+  width: 100%;
+  height: 400px;
+}
+
+
+@media(max-width:415px){
+  .portfolio-item img{
+    width: 100%;
+    height: 200px;
+  }
+
+}
+
+
+.portfolio-modal .close{
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  opacity: 1;
+}
+
+.portfolio-modal-title{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+img.portfolioModal1-image{
+  margin-top: 30px;
+}
+
+p.white-text{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  padding:5px;
+}
+
+.close-button, .see-my-work, .github-code{
+  background-color: black;
+  color:white;
+}
+.close-button:hover , .see-my-work:hover, .github-code:hover{
+  color:white;
+  background-color:rgba(173,105,127,0.82);
+}
+
+/* More work*/
+
+ a.old-work{
+  color:black;
+  font-size: 15px;
+
+ }
+  a.old-work:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+/* Contact*/
+
+.floating-label-form-group{
+  position: relative;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.floating-label-form-group label {
+    font-size: .85em;
+    line-height: 1.764705882em;
+    position: relative;
+    z-index: 0;
+    top: 2em;
+    display: block;
+    margin: 0;
+    transition: top .3s ease,opacity .3s ease;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+}
+
+.floating-label-form-group input, .floating-label-form-group textarea {
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding-right: 0;
+    padding-left: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: 0 0;
+    box-shadow: none!important;
+ }
+
+.form-submit-button{
+  margin-top: 30px;
+}
+
+.contactme{
+  font-size: 18px;
+}
+
+.social-links a{
+  color: black;
+  font-size: 25px;
+}
+
+.social-links a:hover, .btn-secondary a:hover{
+  color:rgba(173,105,127,0.82);
+
+}
+
+/*
+ * Footer
+ */
+
+.inner{
+  background-color: black;
+}
+p.copyright{
+  color:white;
+}
+
+

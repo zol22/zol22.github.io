@@ -1,0 +1,70 @@
+
+
+.view {
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+ .view .mask {
+ 	position:absolute;
+ 	top:0;
+ 	left:0;
+ 	right:0;
+ 	bottom:0;
+ 	overflow:hidden;
+ 	width:100%;
+ 	height:100%;
+ 	background-attachment:fixed
+ }
+
+ .view img,.view video {
+ 	position:relative;
+ 	display:block
+ }
+
+ .overlay .mask {
+ 	opacity:0;
+ 	-webkit-transition:all .4s ease-in-out;
+ 	-o-transition:all .4s ease-in-out;
+ 	transition:all .4s ease-in-out
+ }
+
+ .overlay .mask:hover{
+ 	opacity:1
+ }
+
+ .flex-center {
+ 	display:-webkit-box;
+ 	display:-webkit-flex;
+ 	display:-ms-flexbox;
+ 	display:flex;
+ 	-webkit-box-pack:center;
+ 	-webkit-justify-content:center;
+ 	-ms-flex-pack:center;
+ 	justify-content:center;
+ 	-webkit-box-align:center;
+ 	-webkit-align-items:center;
+ 	-ms-flex-align:center;
+ 	align-items:center;
+ 	height:100%
+ }
+
+ .flex-center p{ 
+ 	margin:0;
+ }
+
+ .rgba-pink-slight,.rgba-pink-slight:after{
+ 	background-color:rgba(233,30,99,.1)
+ }
+
+ .white-text {
+ 	color:#fff!important;
+ }
+
+
+
+
+
+
+
