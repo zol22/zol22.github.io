@@ -1,26 +1,22 @@
 
-
-
-
 .jumbotron{
- 
- 
-  background-attachment: fixed;
+
+   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.jumbotron{
-  background-image: url("../assets/images/bg5.jpg");
-  min-height: 100%;
+  -webkit-background-size: cover;   
+  -moz-background-size: cover;  
+  background-image: url("../assets/images/bg4.jpg");
+  min-height: 300px;
+  height: 100vh;  
+  width: 100%;
+  margin-bottom: 0px;
 }
 
 .skills, .more-work{
   background-color: rgba(173,105,127,0.82);
 }
-
-
 
 /* Links */
 a,
@@ -42,42 +38,15 @@ body {
   
 }
 
-body {
- 
-/*scroll-behavior: smooth; /* Only works in Firefox, this why I used a library*/
-/* When putting this, smooth scroll in safari doesnt work.
--webkit-scroll-snap-type: y mandatory;
--ms-scroll-snap-type: y mandatory;
-scroll-snap-type: y mandatory;  /* Only works in Safari*/
-/*overflow-y: scroll;*/
-
-
-}
-
-/*.slide {
-  scroll-snap-align: center; /* Only works in Safari*/
-   
-/*
 
 /*
  * NavBar
  */
 
 .navbar{
-  background: rgba(173,105,127,0.82) !important;
-
- 
+  background: rgba(173,105,127,0.82) !important; 
 }
 
-
-
-
-
-/*section#section-about ,section#section-resume, section#section-contact{
-  width: 100%;
-  height: 100vh;
-
-}
 
 /*
  * Cover
@@ -122,6 +91,9 @@ scroll-snap-type: y mandatory;  /* Only works in Safari*/
 }
 
 @media screen and (max-width:400px){
+ .jumbotron{
+   background-position:left top;
+ }
   .cover h4.cover-heading {
     font-size: 20px !important;
   }
@@ -148,25 +120,6 @@ scroll-snap-type: y mandatory;  /* Only works in Safari*/
   }
 
 }
-
-.jumbotron{
-  /*background-image:url('../assets/images/bg.jpg');
-  background-repeat:no-repeat;
-  -webkit-background-size: cover;   
-  background-attachment: fixed;  
-  -moz-background-size: cover;  
-  background-size:cover;
-  background-position:center;*/
-  height: 100vh;  
-  width: 100%;
-  margin-bottom: 0px;
-
-
-
-}
-
-
-
 
 /*
  * About

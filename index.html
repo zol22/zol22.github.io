@@ -94,7 +94,7 @@
 					<div class="col-md-4 text-center">
 						<i class="fas fa-laptop-code fa-3x m-5"></i>
 						<h5>Full-Stack Web Dev</h5>
-						<p class="p-3">HTML5, CSS3, LESS, JS, ES6, React, Node , Json , AJAX , PHP , SQL</p>
+						<p class="p-3">HTML5, CSS3, JS, ES6, React, Node , Express, Json , Web API, AJAX , Pug, PHP , SQL</p>
 						
 					</div>
 					<div class="col-md-4 text-center">
@@ -107,7 +107,7 @@
 			</div>
 	</section>
 
-<!-- Resume 
+ 
 	<section id="section-resume" class="resume">
 		<div class="container resume-container text-center">
 		<h3 class="resume-title">Education</h3>
@@ -125,7 +125,11 @@
 					</div>
 					<div class="resume-education">
 						<h6 class="degree">Bachelor Degree in Information Technology</h6>
-						<h6>2016 - 2019 | NJIT</h6>
+						<h6>2016 - 2020 | NJIT</h6>
+					</div>
+					<div class="resume-education">
+						<h6 class="degree">Javascript Full Stack Development</h6>
+						<h6>2021 - PRESENT | TeamTreeHouse Techdegree</h6>
 					</div>
 				</div>
 		    </div>
@@ -133,7 +137,7 @@
 		  </div>
 		</div>
 	</section>
--->
+
 
 
 <!-- Portfolio -->
@@ -141,6 +145,17 @@
 		<div  class="container px-5">
 			<h3 class="portfolio-title text-center">Portfolio</h3>
 			<div class="row">
+
+				<!-- Portfolio Item 5-->
+				<div class="col-sm-6 col-md-6 col-lg-6 px-0"> 
+					<div class='portfolio-item mb-0 view overlay' data-toggle="modal" data-target="#portfolioModal5">  
+	            		<img class="img-fluid" src="assets/portfolio/node-express.jpg" alt="node-express-portf-image">
+	            		<div class="mask flex-center rgba-pink-slight">
+	        				<p class="white-text">Node Express Portfolio</p>
+	    				</div>
+	            	</div>
+	       	 	</div>
+
 
 				<!-- Portfolio Item 1-->
 				<div class="col-sm-6 col-md-6 col-lg-6 px-0"> 
@@ -191,6 +206,45 @@
 
 
 	<!-- Portfolio Modal-->
+
+	<section class="portfolio-modal modal fade" id="portfolioModal5" role="dialog" aria-labelledby="portfolioModal5Label" aria-modal="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label='close'>
+					<span aria-hidden="true">
+						<i class="fas fa-times"></i>
+					</span>
+				</button>
+				<div class="modal-body text-center">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-8">
+								<!--Portfolio Modal Title -->
+								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Node-Express Portfolio</h2>
+								<!--Portfolio Modal Image -->
+								<img class="img-fluid rounded mb-5 portfolioModal1-image" src="assets/portfolio/node-express.jpg" alt="to-do-list-image"></img>
+
+								<button class="see-my-work p-2" onclick="window.open('https://node-express-portf.herokuapp.com') ">See My work 
+								</button>
+
+								<button class="github-code p-2" onclick="window.open('https://github.com/zol22/node_express_portfolio')">Github Code</button>
+
+								<!--Portfolio Modal Text -->
+								<p class="my-5">
+									I used Node.js, Express and Pug templates to create a portfolio site to show off the projects I've built.
+								</p>
+								<button class="close-button p-2" href="#" data-dismiss="modal">
+									<i class="fas fa-times fa-fw"></i>
+									Close							
+								</button>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>	
+		</div>
+	</section>
+
 	<section class="portfolio-modal modal fade" id="portfolioModal1" role="dialog" aria-labelledby="portfolioModal1Label" aria-modal="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -355,9 +409,6 @@
 			<ul>
 				<li class="py-1">	
 					<a href="https://codepen.io/zol22/full/XLyxew" class="old-work" target="_blank">Portfolio in codepen</a>
-				</li>
-				<li  class="py-1">
-					<a href="https://zol22.github.io/" class="old-work" target="_blank">Old Resume</a>
 				</li>
 				<li class="py-1">
 					<a href="https://zol22.github.io/oldWebsite/" class="old-work" target="_blank">Very old Resume</a>
