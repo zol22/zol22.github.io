@@ -1,7 +1,5 @@
 
 .jumbotron{
-
-  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,27 +11,7 @@
   width: 100%;
   margin-bottom: 0px;
 }
-/*For mobile*/
-/*
-@media (max-width: 480px) {
-  .jumbotron{
-      background-image: url("../assets/images/bg6.jpg");
-  }
-}*/
-/*for tablets */
-/*
-@media (min-width: 481px) and (max-width: 1024px) {
-  .jumbotron {
-      background-image: url("../assets/images/bg6.jpg");
-  }
-}*/
-/* for desktop*/
-/*
-@media (min-width: 1025px) {
-  .jumbotron {
-    background-image: url("../assets/images/bg6.jpg");
- }
-}*/
+
 .skills, .more-work{
   background-color: rgba(173,105,127,0.82);
 }
